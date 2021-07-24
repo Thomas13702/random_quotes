@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import { NEXT_URL } from "../config/index";
 
-export default function postQuote() {
+export default function PostQuote() {
   const [quote, setQuote] = useState({
     quote: "",
   });
